@@ -6,3 +6,5 @@
 Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-19.
 
 ![Palavras similares](https://github.com/HAILab-PUCPR/Word2Vec-COVID19-Twitter/blob/master/Figure_0.png?raw=true)
+
+** Em breve o modelo Word2Vec treinado e código para acessá-lo **
