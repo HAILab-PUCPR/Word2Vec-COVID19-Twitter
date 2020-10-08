@@ -3,7 +3,7 @@
 
 ** **Trabalho em progresso** **
 
-Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-19. Corpus retirado do trabalho de [(Tiagode Melo, Carlos M.S.Figueiredo, 2020)] (https://www.sciencedirect.com/science/article/pii/S2352340920310738).
+Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-19. Corpus retirado do trabalho de (Tiagode Melo, Carlos M.S.Figueiredo, 2020) (https://www.sciencedirect.com/science/article/pii/S2352340920310738).
 
 ![Nuvem de palavras mais frequentes](https://github.com/HAILab-PUCPR/Word2Vec-COVID19-Twitter/blob/master/nuvem-tags.jpg?raw=true)
 
