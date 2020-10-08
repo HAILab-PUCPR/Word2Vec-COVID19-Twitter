@@ -12,7 +12,7 @@ Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-
 ## Download do modelo
 
 | Versão | Download | 
-|------|-------|:-------------------------:|
+|------|:-------------------------:|
 |`Word2Vec - BINÁRIO`  | [Download](https://drive.google.com/file/d/1VEL--MvQW49WDaf1_m3K7D9M60FD_N8D/view?usp=sharing) |
 |`Word2Vec - MODEL`  | [Download](#) |
 
