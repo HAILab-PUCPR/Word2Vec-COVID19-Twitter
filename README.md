@@ -3,7 +3,7 @@
 
 ** **Trabalho em progresso** **
 
-Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-19. Corpus extraído a partir do trabalho de (Tiagode Melo, Carlos M.S.Figueiredo, 2020) (https://www.sciencedirect.com/science/article/pii/S2352340920310738).
+Modelo Word2vec Continuos-Bag-Of-Words (CBOW) treinado com tweets brasileiros a respeito da pandemia de COVID-19. Corpus extraído a partir do trabalho de (Tiagode Melo, Carlos M.S.Figueiredo, 2020) (https://www.sciencedirect.com/science/article/pii/S2352340920310738), utilizando biblioteca twipy (https://pypi.org/project/twipy/).
 
 Nuvem de Unigramas:
 
