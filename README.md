@@ -139,10 +139,10 @@ word_clusters = []
 for word in keys:
     embeddings = []
     words = []
-    for similar_word, _ in w2v_model.most_similar(word, topn=10):
-    #for similar_word, _ in w2v_model.most_similar(word, topn=5):
+    for similar_word, _ in model.most_similar(word, topn=10):
+    #for similar_word, _ in model.most_similar(word, topn=5):
         words.append(similar_word)
-        embeddings.append(w2v_model[similar_word])
+        embeddings.append(model[similar_word])
     embedding_clusters.append(embeddings)
     word_clusters.append(words)
 
