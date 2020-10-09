@@ -6,16 +6,17 @@
 Modelo word2vec treinado com tweets brasileiros a respeito da pandemia de COVID-19. Corpus extraído a partir do trabalho de (Tiagode Melo, Carlos M.S.Figueiredo, 2020) (https://www.sciencedirect.com/science/article/pii/S2352340920310738).
 
 Nuvem de Unigramas:
+
 ![Nuvem de palavras mais frequentes](https://github.com/HAILab-PUCPR/Word2Vec-COVID19-Twitter/blob/master/nuvem-tags.jpg?raw=true)
 
 ![Palavras similares](https://github.com/HAILab-PUCPR/Word2Vec-COVID19-Twitter/blob/master/Figure_0.png?raw=true)
 
 ## Download do modelo
 
-| Versão | Download | 
-|------|:-------------------------:|
-|`Word2Vec - BINÁRIO`  | [Download](https://drive.google.com/file/d/1VEL--MvQW49WDaf1_m3K7D9M60FD_N8D/view?usp=sharing) |
-|`Word2Vec - MODEL` (recomendado) | [Download](https://drive.google.com/file/d/1NzGu0_eTTdvaRMqxhfIsYZ9mgnvSuPsk/view?usp=sharing) |
+| Versão | Arquitetura | Download | 
+|------|------|:-------------------------:|
+|`Word2Vec - BINÁRIO`  | CBOW | [Download](https://drive.google.com/file/d/1VEL--MvQW49WDaf1_m3K7D9M60FD_N8D/view?usp=sharing) |
+|`Word2Vec - MODEL` (recomendado)| CBOW | [Download](https://drive.google.com/file/d/1NzGu0_eTTdvaRMqxhfIsYZ9mgnvSuPsk/view?usp=sharing) |
 
 ## Como usar
 -----
