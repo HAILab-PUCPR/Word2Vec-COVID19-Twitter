@@ -80,13 +80,26 @@ data.head(10)
 
 
 ```
+from wordcloud import WordCloud
+stop_words = ["o", "a", "e", "da", "meu", "em", "você", "de", "ao", "os","nao"]
+
+# wordcloud setup
+wcBr = WordCloud(width = 800,
+               height = 800,
+               stopwords = stop_words,
+               colormap = "Dark2",
+               min_font_size = 10,
+               max_words=40)
+               
+wcBr.generate_from_frequencies(frequencies = w2v)
+
 import matplotlib.pyplot as plt
 
 #plot
 plt.figure(figsize = (8, 8), facecolor = None)
-plt.imshow(w2v, interpolation="bilinear")
+plt.imshow(wcBr, interpolation="bilinear")
 plt.axis("off")
-plt.savefig("tweets_wordcloud_unigram") #saves figure to dir
+plt.savefig("tweets_wordcloud_bigram") #saves figure to dir
     
 plt.show()
 
