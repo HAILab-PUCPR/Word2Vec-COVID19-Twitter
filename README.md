@@ -25,11 +25,15 @@ Nuvem de Unigramas:
 2. Para usar o modelo binário (use este modelo se for trabalhar com python 2.7):
 
 ```
+from gensim.models import KeyedVectors
+
 model = KeyedVectors.load_word2vec_format("word2vec_tweets.bin", binary=True)
 ```
 Para usar o modelo atual (model):
 
 ```
+from gensim.models import KeyedVectors
+
 model = KeyedVectors.load("word2vec_tweets.model")
 ```
 
@@ -42,6 +46,8 @@ ponct = [':', ';', '!', '?', '.', ',', '[', ']', '@', '#', '(', ')', '/', '"', "
 
 w2v = dict()
 for item in model.vocab:
+#for item in model.wv.vocab: #gensim 1.0.0+
+
     it = item.lower()
     for let in it:
         if let in ponct:
@@ -51,8 +57,10 @@ for item in model.vocab:
     else:
         if it in w2v:
             w2v[it]+=model.vocab[item].count
+            #w2v[it]+=model.wv.vocab[item].count #gensim 1.0.0+
         else:
             w2v[it]=model.vocab[item].count
+            #w2v[it]=model.wv.vocab[item].count #gensim 1.0.0+
             
 w2vSorted=dict(sorted(w2v.items(), key=lambda x: x[1],reverse=True))
 
@@ -76,7 +84,7 @@ import matplotlib.pyplot as plt
 
 #plot
 plt.figure(figsize = (8, 8), facecolor = None)
-plt.imshow(wc, interpolation="bilinear")
+plt.imshow(model, interpolation="bilinear")
 plt.axis("off")
 plt.savefig("tweets_wordcloud_unigram") #saves figure to dir
     
