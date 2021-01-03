@@ -84,7 +84,7 @@ import matplotlib.pyplot as plt
 
 #plot
 plt.figure(figsize = (8, 8), facecolor = None)
-plt.imshow(model, interpolation="bilinear")
+plt.imshow(w2v, interpolation="bilinear")
 plt.axis("off")
 plt.savefig("tweets_wordcloud_unigram") #saves figure to dir
     
