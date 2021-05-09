@@ -205,4 +205,23 @@ tsne_plot_similar_words('Similaridade entre palavras a partir de Tweets brasilei
 
 ## Como citar
 
-** em breve **
+```
+@inproceedings{Giovanni-Paiva-etal-2020,
+    title = "COVID 19: O que sentem os brasileiros de acordo com o Twitter?",
+    author = "Paiva, Giovanni Pazini Meneghel  and
+      Schneider, Elisa Terumi Rubel  and
+      de Souza, Jo{\~a}o Vitor Andrioli  and
+      Cezar, Josilaine Oliveira  and
+      Oliveira, Lucas Ferro Antunes de  and
+      Andrioli, João Vitor  and
+      Barra, Cl{\'a}udia Maria Cabral Moro and
+      Paraiso, Emerson Cabrera  and
+      Oliveira, Lucas Emanuel Silva e  and
+      Gumiel, Yohan Bonescki",
+booktitle = "CBIS 2020 - XVII Congresso Brasileiro de Informática em Saúde",
+    year = "2020",
+    address = "Online",
+    publisher = "Journal of Health Informatics",
+    url = "http://www.jhi-sbis.saude.ws/ojs-jhi/index.php/jhi-sbis/article/view/842",
+    abstract = "Objetivo: A pandemia causada pelo novo coronavírus (SARS-CoV-2) caracteriza-se como o maior desafio do século 21. Neste contexto, procurou-se levantar um panorama geral de dados de usuários do Twitter, no Brasil, relacionados à COVID-19. Métodos: Utilizando de técnicas de Processamento de Linguagem Natural, foi aplicado um modelo Word2Vec CBOW em um conjunto pré-processado de dados públicos em português. Este foi então analisado através de wordclouds, tabelas e gráficos t-SNE. Resultados: O modelo captou comportamentos e tendências relacionados a COVID-19, como similaridades entre palavras, os unigramas e bigramas mais frequentes e hipóteses baseadas em dados estatísticos recolhidos. Conclusão: Este estudo apresenta uma análise inicial de mensagens do Twitter, em português, relacionadas à COVID-19. Os resultados foram promissores e evidenciaram o potencial da aplicação do aprendizado de máquina em assuntos importantes, como uma crise de saúde mundial.",
+}
