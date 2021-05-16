@@ -213,7 +213,6 @@ tsne_plot_similar_words('Similaridade entre palavras a partir de Tweets brasilei
       de Souza, Jo{\~a}o Vitor Andrioli  and
       Cezar, Josilaine Oliveira  and
       Oliveira, Lucas Ferro Antunes de  and
-      Andrioli, João Vitor  and
       Barra, Cl{\'a}udia Maria Cabral Moro and
       Paraiso, Emerson Cabrera  and
       Oliveira, Lucas Emanuel Silva e  and
